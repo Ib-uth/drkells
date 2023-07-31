@@ -33,8 +33,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
@@ -108,64 +108,68 @@
         </button>
     </header>
     <main id="main">
-        
+
         <!-- start of hero -->
-        <section class="hero-slider hero-style">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="slide-inner slide-bg-image"
-                            data-background="https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/b6/07/7eb607d4-3f9c-f269-25be-e980862973d9/5059580190842_cover.jpg/296x296bb-60.jpg">
-                            <div class="container">
-                                <div data-swiper-parallax="300" class="slide-title">
-                                    <h2>GUITAR CLASSES
-                                        FOR KIDS</h2>
-                                </div>
-                                <div data-swiper-parallax="400" class="slide-text">
-                                    <p>Want to see your kid become more expressive?</p>
-                                </div>
-                                <div class="clearfix"></div>
-                                <div data-swiper-parallax="500" class="slide-btns">
-                                    <a href="#" class="theme-btn-s2">Register now</a>
-                                    <a href="#" class="theme-btn-s3"><i class="fas fa-chevron-circle-right"></i> Get
-                                        Info</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end slide-inner -->
-                    </div>
-                    <!-- end swiper-slide -->
-
-                    <div class="swiper-slide">
-                        <div class="slide-inner slide-bg-image"
-                            data-background="assets/images/06.jpg">
-                            <div class="container">
-                                <div data-swiper-parallax="300" class="slide-title">
-                                    <h2>GUITAR CLASSES
-                                        FOR KIDS</h2>
-                                </div>
-                                <div data-swiper-parallax="400" class="slide-text">
-                                    <p>Want to see your kid become more expressive?</p>
-                                </div>
-                                <div class="clearfix"></div>
-                                <div data-swiper-parallax="500" class="slide-btns">
-                                    <a href="#" class="theme-btn-s2">Register now</a>
-                                    <a href="#" class="theme-btn-s3"><i class="fas fa-chevron-circle-right"></i>Get
-                                        Info</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end slide-inner -->
-                    </div>
-                    <!-- end swiper-slide -->
+        <!-- HERO SECTION -->
+        <section id="hero-slider">
+            <div class="hero-slider__wrapper">
+                <div class="hero-slider__slide" style="background-image: url('assets/images/02.jpg');">
+                    <h1>BEST SALE</h1>
+                    <h4><span class="left-wing"></span>THE BLACK PHANTOM<span class="right-wing"></span></h4>
+                    <a href="#" class="btn btn--with-icon"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i>SHOP
+                        NOW</a>
                 </div>
-                <!-- end swiper-wrapper -->
-
-                <!-- swipper controls -->
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="hero-slider__slide" style="background-image: url('assets/images/03.jpg');">
+                    <h1>BEST SALE</h1>
+                    <h4><span class="left-wing"></span>THE BLACK PHANTOM<span class="right-wing"></span></h4>
+                    <a href="#" class="btn btn--with-icon"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i>SHOP
+                        NOW</a>
+                </div>
+                <div class="hero-slider__slide" style="background-image: url('assets/images/06.jpg');">
+                    <h1>BEST SALE</h1>
+                    <h4><span class="left-wing"></span>THE BLACK PHANTOM<span class="right-wing"></span></h4>
+                    <a href="#" class="btn btn--with-icon"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i>SHOP
+                        NOW</a>
+                </div>
             </div>
+            <span class="hero-slider__button hero-slider__button--prev"><i class="fa fa-2x fa-chevron-left"
+                    aria-hidden="true"></i></span>
+            <span class="hero-slider__button hero-slider__button--next"><i class="fa fa-2x fa-chevron-right"
+                    aria-hidden="true"></i></span>
+        </section>
+
+
+        <!-- end swiper-slide -->
+
+        <div class="swiper-slide">
+            <div class="slide-inner slide-bg-image" data-background="assets/images/06.jpg">
+                <div class="container">
+                    <div data-swiper-parallax="300" class="slide-title">
+                        <h2>GUITAR CLASSES
+                            FOR KIDS</h2>
+                    </div>
+                    <div data-swiper-parallax="400" class="slide-text">
+                        <p>Want to see your kid become more expressive?</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div data-swiper-parallax="500" class="slide-btns">
+                        <a href="#" class="theme-btn-s2">Register now</a>
+                        <a href="#" class="theme-btn-s3"><i class="fas fa-chevron-circle-right"></i>Get
+                            Info</a>
+                    </div>
+                </div>
+            </div>
+            <!-- end slide-inner -->
+        </div>
+        <!-- end swiper-slide -->
+        </div>
+        <!-- end swiper-wrapper -->
+
+        <!-- swipper controls -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        </div>
         </section>
         <!-- end of hero slider -->
         <div class="parallaxBg">
@@ -183,8 +187,7 @@
                 <div class="release out-now album normal" id="release-23825">
                     <div class="packshot"><img
                             data-src="https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/f4/76/89f47657-cf1b-a542-05ba-830377a585cf/artwork.jpg"
-                            alt="Big Steppa" class=" lazyloaded"
-                            src="assets/images/big.jpg">
+                            alt="Big Steppa" class=" lazyloaded" src="assets/images/big.jpg">
                     </div>
                     <div class="info">
                         <h2 class="release-title">Big Steppa (feat. Bizzel) - Single</h2>
@@ -194,7 +197,9 @@
                             <div class="release-custominfo"></div>
                             <div class="release-embed"></div>
                             <ol class="tracklist"></ol>
-                            <div class="retail-links"><a href="https://music.apple.com/us/album/big-steppa-feat-bizzel/1661190818?i=1661190819" target="_blank"
+                            <div class="retail-links"><a
+                                    href="https://music.apple.com/us/album/big-steppa-feat-bizzel/1661190818?i=1661190819"
+                                    target="_blank"
                                     class="retail-link out-now album normal smem-release-retail-link cta">LISTEN
                                     NOW</a></div>
                         </div>
@@ -203,9 +208,9 @@
             </div>
             <div class="cta cta--sectionlink more"><a href="music">See more releases</a></div>
         </section>
-            <div class="parallaxBg">
-                <img src="assets/images/06.jpg" class="parallaxImg">
-            </div>
+        <div class="parallaxBg">
+            <img src="assets/images/06.jpg" class="parallaxImg">
+        </div>
         <section class="page-section videos home-section" id="section_videos">
 
             <div class="glitch-con">
@@ -215,8 +220,8 @@
             </div>
 
             <div class="smem-videos" id="5dfd00f8430d7">
-                <div class="video youtube" id="video-44273"><a href="https://www.youtube.com/@drkells" data-youtube="i-J0Fdze42M"
-                        class="video-link youtube smem-video-link">
+                <div class="video youtube" id="video-44273"><a href="https://www.youtube.com/@drkells"
+                        data-youtube="i-J0Fdze42M" class="video-link youtube smem-video-link">
                         <div class="video-thumb yt-thumb"><img
                                 data-src="https://i.ytimg.com/vi/5DhhhXZJd3U/hqdefault.jpg"
                                 class="thumb youtube lazyloaded" alt="Champion Sound (with Focalistic)"
@@ -251,7 +256,9 @@
     <script src="assets/js/hero.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
     <script>
         var parallaxImg = document.getElementsByClassName('parallaxImg');
         new simpleParallax(parallaxImg, {
