@@ -4294,7 +4294,7 @@ section .glitch-con h2.section-title {
 #hero-style
 --------------------------------------------------------------*/
 #hero-slider {
-  position: relative;
+  position: absolute;
   height: 100vh;
 }
 
