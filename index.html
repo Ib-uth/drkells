@@ -125,13 +125,7 @@
                     <a href="#" class="btn btn--with-icon"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i>SHOP
                         NOW</a>
                 </div>
-                <div class="hero-slider__slide" style="background-image: url('assets/images/06.jpg');">
-                    <h1>BEST SALE</h1>
-                    <h4><span class="left-wing"></span>THE BLACK PHANTOM<span class="right-wing"></span></h4>
-                    <a href="#" class="btn btn--with-icon"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i>SHOP
-                        NOW</a>
-                </div>
-            </div>
+               
             <span class="hero-slider__button hero-slider__button--prev"><i class="fa fa-2x fa-chevron-left"
                     aria-hidden="true"></i></span>
             <span class="hero-slider__button hero-slider__button--next"><i class="fa fa-2x fa-chevron-right"
@@ -231,6 +225,24 @@
         new simpleParallax(parallaxImg, {
             orientation: "up"
         });
+    </script>
+    <script>
+        $(document).ready(() => {
+    $('.hero-slider__wrapper').carouFredSel({
+      width: '100%',
+      height: '200vh',
+      responsive: true,
+      swipe: {
+        onTouch: true
+      },
+      next: {
+        button: '.hero-slider__button--next'
+      },
+      prev: {
+        button: '.hero-slider__button--prev'
+      }
+    });
+  });
     </script>
 </body>
 
