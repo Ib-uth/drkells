@@ -4483,3 +4483,6 @@ section .glitch-con h2.section-title {
 .btn.btn--only-icon {
   width: 50px;
 }
+.dbtn{
+  color: #363738;
+}
