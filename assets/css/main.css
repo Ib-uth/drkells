@@ -4126,7 +4126,7 @@ section .glitch-con h2.section-title {
 }
 .poverlay {
   position: relative;
-  display: block;
+  display: flex;
   top: 0;
   left: 0;
   width: 100%;
