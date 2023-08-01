@@ -192,25 +192,31 @@
 
         </div>
     </main>
-
     <footer>
         <div class="label">
-            <img src="../assets/images/sme-logo.jpg" alt="Sony Music Entertainment LTD logo">
+            <img src="assets/images/logo.jpg" alt="LOGO">
         </div>
         <div class="legals">
             <p>
-                <span class="smeuk">© <span id="footerDate">2023</span> <a href="https://www.sonymusic.co.uk"
-                        target="_blank" rel="noopener noreferrer">Sony Music Entertainment UK Ltd.</a></span>
+                <span class="smeuk">© <span id="footerDate">2023</span> <a href="#"
+                        target="_blank" rel="noopener noreferrer">Dr Kells.</a></span>
                 <span class="sep"> | </span>
-                <span class="privacy"><a href="https://www.sonymusic.co.uk/privacy" target="_blank"
-                        rel="noopener noreferrer">Privacy &amp; Cookie Policy</a></span>
             </p>
         </div>
     </footer>
-
-
     <script src="assets/js/vendor.min.js"></script>
-    <script src="assets/js/main-min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+    <script>
+        var parallaxImg = document.getElementsByClassName('parallaxImg');
+        new simpleParallax(parallaxImg, {
+            orientation: "up-left"
+        });
+    </script>
     <script type="application/ld+json" id="artistSnippet">
         {
           "@context":"http://schema.org",
