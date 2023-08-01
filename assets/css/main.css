@@ -4125,7 +4125,7 @@ section .glitch-con h2.section-title {
   max-height: 100%
 }
 .poverlay {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
