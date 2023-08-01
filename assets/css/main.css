@@ -4108,7 +4108,7 @@ section .glitch-con h2.section-title {
   width: 100%;
   height: 100%;
   display: block;
-  background-image: url(../images/noise.gif);
+  background-image: url("../images/noise.gif");
   z-index: 14;
   position: absolute;
   opacity: .05;
@@ -4123,17 +4123,6 @@ section .glitch-con h2.section-title {
   justify-content: center;
   max-width: 100%;
   max-height: 100%
-}
-.poverlay {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/noise.gif");
-  pointer-events: none; /* This line ensures that the overlay doesn't block interaction with the background image. */
-  opacity: .05; /* Adjust the opacity as needed to control the intensity of the overlay effect. */
-  z-index: 14; /* Adjust the z-index value to make sure the overlay appears above the background image. */
 }
 
 /* Hero */
