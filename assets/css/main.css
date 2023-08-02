@@ -4608,7 +4608,7 @@ section .glitch-con h2.section-title {
     font-size: 1.2em;
   }
 }
-.hero-slider__slide video {
+.hero-slider__slide iframe {
   position: absolute;
   top: 0;
   left: 0;
