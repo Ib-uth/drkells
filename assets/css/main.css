@@ -3712,7 +3712,6 @@ section.page-section.videos.single .smem-videos iframe {
 .jarallax>.jarallax-img {
   position: absolute;
   object-fit: cover;
-  /* support for plugin https://github.com/bfred-it/object-fit-images */
   font-family: 'object-fit: cover;';
   top: 0;
   left: 0;
@@ -4461,7 +4460,7 @@ section .glitch-con h2.section-title {
 }
 
 .btn:hover {
-  background: #E70D04;
+  background: #dfbfbf;
   color: #fff;
 }
 
@@ -4476,7 +4475,7 @@ section .glitch-con h2.section-title {
   line-height: 50px;
   vertical-align: bottom;
   color: white;
-  background: #E70D04;
+  background: #dfbfbf;
   clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 }
 
