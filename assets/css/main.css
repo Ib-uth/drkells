@@ -4608,3 +4608,12 @@ section .glitch-con h2.section-title {
     font-size: 1.2em;
   }
 }
+.hero-slider__slide video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video fills the slide without stretching */
+  opacity: 0.8; /* Adjust the opacity to blend in with the slide background */
+}
