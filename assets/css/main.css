@@ -4500,7 +4500,7 @@ section .glitch-con h2.section-title {
 	width: 480px;
 	padding: 1em;
 	
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	right: 0;
 	left: 0;
