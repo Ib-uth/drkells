@@ -4506,7 +4506,7 @@ section .glitch-con h2.section-title {
 	left: 0;
 	top: 0;	
 	
-	
+	display:flex;
 }
 
 #drcontainer h2 {
