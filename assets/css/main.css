@@ -4506,7 +4506,6 @@ section .glitch-con h2.section-title {
 	left: 0;
 	top: 0;	
 	
-	display:flex;
 }
 
 #drcontainer h2 {
@@ -4567,3 +4566,45 @@ section .glitch-con h2.section-title {
 }
 #drcontainer button:hover{transform: translatey(2px);}
 #container button:active{transform: translatey(5px);}
+
+/* Media Query for devices with a maximum width of 768px (tablets and smaller) */
+@media screen and (max-width: 768px) {
+  #drcontainer {
+    /* Adjust container width and margin for smaller screens */
+    width: 90%;
+    margin: 2em auto;
+  }
+
+  #drcontainer h2 {
+    /* Adjust font size for smaller screens */
+    font-size: 2.5em;
+  }
+
+  #drcontainer p {
+    /* Adjust font size for smaller screens */
+    font-size: 1em;
+  }
+
+  #drcontainer input {
+    /* Adjust input width for smaller screens */
+    width: 100%;
+  }
+}
+
+/* Media Query for devices with a maximum width of 480px (most smartphones) */
+@media screen and (max-width: 480px) {
+  #drcontainer h2 {
+    /* Further adjust font size for smaller screens */
+    font-size: 2em;
+  }
+
+  #drcontainer p {
+    /* Further adjust font size for smaller screens */
+    font-size: 0.9em;
+  }
+
+  #drcontainer button {
+    /* Adjust font size for smaller screens */
+    font-size: 1.2em;
+  }
+}
