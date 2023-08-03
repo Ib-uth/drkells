@@ -4119,7 +4119,6 @@ section .glitch-con h2.section-title {
   height: 500px;
   overflow: hidden;
   display: flex;
-  align-items: center;
   justify-content: center;
   max-width: 100%;
   max-height: 100%
@@ -4611,6 +4610,9 @@ section .glitch-con h2.section-title {
 @media screen and (max-width: 768px) {
   .parallaxBg {
       height: 300px;
-      align-items: center;
   }
+  .parallaxBg img{
+    max-width: 100%;
+  max-height: 100%;
+}
 }
