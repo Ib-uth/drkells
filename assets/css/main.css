@@ -4611,6 +4611,6 @@ section .glitch-con h2.section-title {
 @media screen and (max-width: 768px) {
   .parallaxBg {
       height: 300px;
-      justify-content: left;
+      align-items: center;
   }
 }
