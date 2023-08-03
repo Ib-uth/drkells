@@ -4628,8 +4628,5 @@ section .glitch-con h2.section-title {
     height: 300px;
   }
 
-  .parallaxImg {
-    content: url("../images/mobile.jpg");
-    /* Replace with the mobile image */
-  }
+  
 }
