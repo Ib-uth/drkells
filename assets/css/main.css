@@ -4129,7 +4129,7 @@ section .glitch-con h2.section-title {
 
 .hero-slider {
   width: 100%;
-  height: 650px;
+  height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4139,13 +4139,13 @@ section .glitch-con h2.section-title {
 
 @media (max-width: 991px) {
   .hero-slider {
-    height: 550px;
+    height: 600px;
   }
 }
 
 @media (max-width: 767px) {
   .hero-slider {
-    height: 450px;
+    height: 500px;
   }
 }
 
@@ -4294,14 +4294,14 @@ section .glitch-con h2.section-title {
 --------------------------------------------------------------*/
 #hero-slider {
   position: relative;
-  height: 80vh;
+  height: 100vh;
 }
 
 #hero-slider .hero-slider__slide {
   float: left;
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
