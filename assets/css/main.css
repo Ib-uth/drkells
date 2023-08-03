@@ -4606,4 +4606,9 @@ section .glitch-con h2.section-title {
     /* Adjust font size for smaller screens */
     font-size: 1.2em;
   }
+}/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .parallaxBg {
+      height: 300px; /* Adjust the height for smaller screens */
+  }
 }
