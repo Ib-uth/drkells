@@ -4102,7 +4102,7 @@ section .glitch-con h2.section-title {
 }
 
 /* NOISE */
-.jarallax > div:after {
+.parallaxBg > div:after {
   content: '';
   width: 100%;
   height: 100%;
