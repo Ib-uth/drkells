@@ -3745,7 +3745,7 @@ section .glitch-con h2.section-title {
 
 .glitch,
 .glow {
-  color: #dfbfbf;
+  color: #8e7272;
   position: relative;
   font-size: 7em;
   animation: glitch 5s 5s infinite;
@@ -4650,6 +4650,10 @@ section .glitch-con h2.section-title {
   .parallaxBg {
     height: 300px;
   }
-
-  
+  .parallaxImg1 {
+    content: url("assets/images/01.jpg"); /* Replace with the mobile image */
+}
+.parallaxImg2 {
+  content: url("assets/images/01.jpg"); /* Replace with the mobile image */
+}
 }
