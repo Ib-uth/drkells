@@ -181,7 +181,7 @@
             <div class="jarallax">
 
                 <div class="parallaxBg">
-                   <img src="assets/images/05.jpg" class="parallaxImg1">
+                   <img src="assets/images/05.jpg" id="pI1" class="parallaxImg1">
         
                 </div>
             </div>
@@ -215,7 +215,7 @@
             <div class="jarallax">
 
                 <div class="parallaxBg">
-                   <img src="assets/images/06.jpg" class="parallaxImg2">
+                   <img src="assets/images/06.jpg" id="pI2" class="parallaxImg">
         
                 </div>
             </div>
@@ -276,7 +276,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
     <script>
         var parallaxImg = document.getElementsByClassName('parallaxImg');
-        new simpleParallax({parallaxImg1, parallaxImg2}, {
+        new simpleParallax(parallaxImg, {
             orientation: "up"
         });
     </script>
