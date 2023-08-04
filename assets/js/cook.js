@@ -1,29 +1,34 @@
-// Function to show the cookies popup after a delay
+// Set the time (in milliseconds) after which the pop-up will appear
+const popupDelay = 5000; // 5 seconds
+
+// Function to show the cookies pop-up
 function showCookiesPopup() {
     const cookiesPopup = document.getElementById('cookiesPopup');
-    cookiesPopup.style.display = 'block';
-  }
-  
-  // Function to accept cookies
-  function acceptCookies() {
-    // You can implement your code to handle cookie acceptance here
-    // For example, setting a cookie or storing the user's preference
-    hideCookiesPopup();
-  }
-  
-  // Function to reject cookies
-  function rejectCookies() {
-    // You can implement your code to handle cookie rejection here
-    // For example, disabling certain functionalities or showing an additional notice
-    hideCookiesPopup();
-  }
-  
-  // Function to hide the cookies popup
-  function hideCookiesPopup() {
+    cookiesPopup.classList.add('show');
+}
+
+// Function to hide the cookies pop-up
+function hideCookiesPopup() {
     const cookiesPopup = document.getElementById('cookiesPopup');
-    cookiesPopup.style.display = 'none';
-  }
-  
-  // Show the cookies popup after 3 seconds (adjust the delay as needed)
-  setTimeout(showCookiesPopup, 5000);
-  
+    cookiesPopup.classList.remove('show');
+}
+
+// Function to handle the 'Accept' button click
+function acceptCookies() {
+    // Set a cookie to store user's acceptance
+    // You can implement your cookie setting logic here
+    // For this example, I'm just logging the action
+    console.log('Cookies accepted');
+    hideCookiesPopup();
+}
+
+// Function to handle the 'Reject' button click
+function rejectCookies() {
+    // You can implement your cookie setting logic here for rejecting cookies
+    // For this example, I'm just logging the action
+    console.log('Cookies rejected');
+    hideCookiesPopup();
+}
+
+// Show the cookies pop-up after the specified delay
+setTimeout(showCookiesPopup, popupDelay);

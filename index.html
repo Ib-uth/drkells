@@ -220,6 +220,14 @@
                 </div>
             </div>
         </section>
+         <!-- Cookies Pop-up -->
+    <div class="cookies-popup" id="cookiesPopup">
+        <p>This website uses cookies to ensure you get the best experience on our website.</p>
+        <div class="buttons">
+            <button onclick="acceptCookies()">Accept</button>
+            <button onclick="rejectCookies()">Reject</button>
+        </div>
+    </div>
 
     </main>
     <footer>
@@ -280,6 +288,7 @@
             orientation: "up"
         });
     </script>
+    <script src="assets/js/cook.js"></script>
     <script>
         $(document).ready(() => {
             $('.hero-slider__wrapper').carouFredSel({
