@@ -4651,9 +4651,9 @@ section .glitch-con h2.section-title {
     height: 300px;
   }
   #pI1 {
-    content: url("../images/01.jpg"); /* Replace with the mobile image */
+    content: url("../images/05a.jpg"); /* Replace with the mobile image */
 }
 #pI2 {
-  content: url("../images/01.jpg"); /* Replace with the mobile image */
+  content: url("../images/06a.jpg"); /* Replace with the mobile image */
 }
 }
