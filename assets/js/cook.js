@@ -1,34 +1,58 @@
-// Set the time (in milliseconds) after which the pop-up will appear
-const popupDelay = 5000; // 5 seconds
+// object-fit polyfill run
 
-// Function to show the cookies pop-up
-function showCookiesPopup() {
-    const cookiesPopup = document.getElementById('cookiesPopup');
-    cookiesPopup.classList.add('show');
-}
+objectFitImages();
 
-// Function to hide the cookies pop-up
-function hideCookiesPopup() {
-    const cookiesPopup = document.getElementById('cookiesPopup');
-    cookiesPopup.classList.remove('show');
-}
 
-// Function to handle the 'Accept' button click
-function acceptCookies() {
-    // Set a cookie to store user's acceptance
-    // You can implement your cookie setting logic here
-    // For this example, I'm just logging the action
-    console.log('Cookies accepted');
-    hideCookiesPopup();
-}
 
-// Function to handle the 'Reject' button click
-function rejectCookies() {
-    // You can implement your cookie setting logic here for rejecting cookies
-    // For this example, I'm just logging the action
-    console.log('Cookies rejected');
-    hideCookiesPopup();
-}
+/* init Jarallax */
 
-// Show the cookies pop-up after the specified delay
-setTimeout(showCookiesPopup, popupDelay);
+jarallax(document.querySelectorAll('.jarallax'));
+
+
+
+jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+
+    keepImg: true,
+
+});
+
+
+
+/* init Flickity Carousel + Jarallax inside it */
+
+// new Flickity( '.demo-carousel', {
+
+//     initialIndex: 1,
+
+//     autoPlay: 3000,
+
+//     pauseAutoPlayOnHover: false,
+
+//     pageDots: false,
+
+//     prevNextButtons: false,
+
+//     wrapAround: true
+
+// });
+
+// jarallax(document.querySelectorAll('.demo-carousel .jarallax'), {
+
+//     elementInViewport: document.querySelectorAll('.demo-carousel')
+
+// });
+
+
+
+/* init Jarallax with jQuery */
+
+// $('.jarallax').jarallax({
+
+//     speed: 0.5,
+
+//     imgWidth: 1366,
+
+//     imgHeight: 768
+
+// });
+
