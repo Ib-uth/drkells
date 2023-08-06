@@ -4916,3 +4916,8 @@ section .glitch-con h2.section-title {
   z-index: -1;
 
 }
+
+.white-bg{
+  background-color: #FFFFFF;
+  color: #000;
+}
