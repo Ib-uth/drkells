@@ -4959,3 +4959,9 @@ section .glitch-con h2.section-title {
   background: black;
   color: #fff;
 }
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .link a {
+    width: 270px;
+  }
+}
