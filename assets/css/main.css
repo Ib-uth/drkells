@@ -4962,6 +4962,6 @@ section .glitch-con h2.section-title {
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
   .link a {
-    width: 270px;
+    width: 300px;
   }
 }
