@@ -3782,7 +3782,7 @@ section .glitch-con h2.section-title {
   position: absolute;
   left: -2px;
   text-shadow: -5px 0 rgb(158, 157, 158);
-  background: #ffffff;
+  background: #ffffff00;
   overflow: hidden;
   top: 0;
   animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
@@ -3794,8 +3794,8 @@ section .glitch-con h2.section-title {
   content: attr(data-text);
   position: absolute;
   left: 2px;
-  text-shadow: -5px 0 lightgreen;
-  background: #ffffff;
+  text-shadow: -5px 0 rgb(63, 50, 42);
+  background: #ffffff00;
   overflow: hidden;
   top: 0;
   animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
