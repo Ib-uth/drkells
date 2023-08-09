@@ -534,7 +534,8 @@ body .hamburger {
   }
 
   body.menu-open header .artistlogo .smem-logo img {
-    filter: invert(0%);
+    width: 100%;
+    height: auto;
   }
 }
 
